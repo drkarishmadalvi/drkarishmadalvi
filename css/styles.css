@@ -381,6 +381,11 @@ section{ padding: 84px 0; }
 }
 .service-card h3{ font-size: 1.05rem; margin-bottom: 6px; }
 .service-card p{ font-size: .9rem; color: var(--ink-70); margin: 0; }
+.service-icon--leaf{
+  background: #F3E9D6;
+  color: var(--brass-dark);
+}
+.leaf-icon{ width: 24px; height: 24px; }
 
 @media (max-width: 1000px){ .services-grid{ grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 560px){ .services-grid{ grid-template-columns: 1fr; } }
