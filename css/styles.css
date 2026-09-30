@@ -338,6 +338,8 @@ section{ padding: 84px 0; }
 .about-card h3{ color: #fff; font-size: 1.3rem; }
 .about-card .role{ color: #C9E4DA; font-size: .9rem; margin-bottom: 4px; }
 .about-card .credentials{ color: #EDEAE0; font-size: .82rem; margin-bottom: 16px; }
+.about-card p{ font-size: .94rem; line-height: 1.6; margin: 0 0 14px; }
+.about-card p:last-of-type{ margin-bottom: 0; }
 .about-list{ list-style: none; margin: 20px 0 0; padding: 0; display: grid; gap: 12px; }
 .about-list li{
   display: flex; gap: 10px; align-items: flex-start;
@@ -609,7 +611,7 @@ footer{
 }
 .footer-grid{
   display: grid;
-  grid-template-columns: 1.4fr 1fr 1fr;
+  grid-template-columns: 1.4fr 1fr;
   gap: 40px;
   padding-bottom: 32px;
   border-bottom: 1px solid rgba(255,255,255,.12);
@@ -617,15 +619,19 @@ footer{
 .footer-brand{ display: flex; gap: 12px; align-items: center; margin-bottom: 14px; }
 .footer-brand img{ width: 40px; height: 40px; border-radius: 50%; }
 .footer-brand span{ font-family: var(--font-display); color: #fff; font-size: 1.1rem; font-weight: 700; }
+.footer-social{
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: .92rem;
+}
+.footer-social svg{ width: 18px; height: 18px; flex: none; }
+.footer-social:hover{ color: #fff; }
 .footer-col h4{ color: #fff; font-size: .95rem; margin-bottom: 14px; }
 .footer-col ul{ list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; font-size: .92rem; }
 .footer-col a:hover{ color: #fff; }
 .footer-bottom{
   padding-top: 22px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 10px;
   font-size: .82rem;
 }
 
