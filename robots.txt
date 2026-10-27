@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://smilearchitectdental.com/sitemap.xml
+Sitemap: https://www.smilearchitectdental.com/sitemap.xml
